@@ -1,3 +1,5 @@
 # GitIgnore
 .DS_Store
-.ipynb_checkpointsIcon[]
+.ipynb_checkpoints
+Icon[
+]
