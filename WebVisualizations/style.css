@@ -1,0 +1,115 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size:100%;
+    background:#ededed;
+}
+hr{
+    border:1px solid #ededed;
+}
+h2,h3 {
+    color:#47aaa5;
+    font-weight:bold;
+}
+section {
+    background:white;
+    padding:3%;
+    margin:3px 3px 30px 3px;
+    position:relative;
+    top:70px;
+}
+p {
+    text-align:left;
+    margin:5%;
+    position:relative;
+    top:2px;
+}
+.comparison {
+    margin:0px 0px 40px 0px;
+}
+
+/* image style -
+#main_img = landing page image
+.viz = visualizations (eg. side bar)
+.viz_select = selected visualization (side bar) */
+#main_img {
+    width:45%;
+    height:45%;
+    float:left;
+    position:relative;
+    margin:3px 3px 3px 3px;
+}
+.viz {
+    width:100%;
+}
+.viz_select {
+    border:1px solid #47aaa5;
+}
+
+/* figcaption as figure title on comparison page */
+figure {
+    display:table;
+}
+figcaption {
+    display: table-caption;
+    caption-side: top;
+    text-align:center;
+    font-size: 150%
+}
+
+/* navbar style */
+.navbar-brand {
+    background:#47aaa5;
+    color:white;
+    margin:0px;
+    padding:5px 10px 5px 10px;
+    font-weight:bold;
+}
+.navbar {
+    background: white;
+    height:40px;
+}
+.navbar-nav li {
+    padding:10px;
+}
+a,a:focus,a:hover,.dropdown-item {
+    text-decoration: none;
+    color: #777777;
+}
+.navbar-toggler {
+    border:1px solid #ededed;
+}
+.navbar-collapse {
+    position:relative;
+    top:10px;
+}
+#navbarDropdown:focus{
+    background: #ededed;
+}
+.dropdown-menu {
+    box-shadow:1px 1px 5px #777777;
+    border:none;
+    position:relative;
+    top:48px;
+}
+/* media query for navbar and page background */
+@media (max-width:768px) {
+    .navbar {
+        background-color:#47aaa5;
+        height:55px;
+    }
+    .collapse {
+        background:white;
+    }
+    body {
+        background:white;
+    }
+    .dropdown-menu {
+        box-shadow:none;
+    }
+    .viz {
+        width:120%;
+    }
+    .table-responsive-lg {
+        border:1px solid #ededed;
+    }
+}

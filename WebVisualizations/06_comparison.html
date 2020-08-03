@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Comparison</title>
+    <!--bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--my stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <a class="navbar-brand" href="01_landing.html">
+        Latitude
+      </a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="02_viz1.html">Max Temperature</a>
+              <a class="dropdown-item" href="03_viz2.html">Humidity</a>
+              <a class="dropdown-item" href="04_viz3.html">Cloudiness</a>
+              <a class="dropdown-item" href="05_viz4.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="06_comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="07_data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--main content: comparison figs-->
+    <div class="container">
+      <section>
+        <div class="row">
+          <div class="col-12">
+            <h2>Comparison: Latitude vs X</h2>
+            <hr>
+            <p class="comparison">
+              Click any plot to get an in-depth analysis.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <figure>
+              <a href="02_viz1.html"><img class="viz" src="../Resources/assets/images/Fig1.png" alt="Max Temperature"></a>
+              <figcaption><h3>vs. Max Temperature</h3></figcaption>
+            </figure>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <figure>
+              <a href="03_viz2.html"><img class="viz" src="../Resources/assets/images/Fig2.png" alt="Humidity"></a>
+              <figcaption><h3>vs. Humidity</h3></figcaption>
+            </figure>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <figure>
+              <a href="04_viz3.html"><img class="viz" src="../Resources/assets/images/Fig3.png" alt="Cloudiness"></a>
+              <figcaption><h3>vs. Cloudiness</h3></figcaption>
+            </figure>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <figure>
+              <a href="05_viz4.html"><img class="viz" src="../Resources/assets/images/Fig4.png" alt="Wind Speed"></a>
+              <figcaption><h3>vs. Wind Speed</h3></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--bootstrap template scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
